@@ -1,0 +1,28 @@
+.container-navbar{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window-navbar{ /* Poprawiona nazwa klasy */
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: left;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul {
+    padding: 0; /* Usunięcie domyślnego paddingu */
+    margin: 0; /* Usunięcie domyślnego marginesu */
+}
+li {
+    list-style-type: none; /* Usunięcie domyślnych znaczników listy */
+}

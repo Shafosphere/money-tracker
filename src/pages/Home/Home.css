@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1.3fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+
+  height: 100vh;
+  width: 100%;
+  background-color: #A7A7A7;
+}
+
+.Navbar {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.Content {
+  grid-area: 1 / 2 / 3 / 4;
+}
+
+.Income {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.Goals {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.History {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.Chart {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.Content{
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+}
