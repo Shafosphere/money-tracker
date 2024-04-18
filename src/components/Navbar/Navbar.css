@@ -9,12 +9,14 @@
 .window-navbar{ /* Poprawiona nazwa klasy */
     height: 90%;
     width: 80%;
+    min-width: 300px;
+    min-height: 600px;
     background-color: white;
     border-radius: 50px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     padding-top: 10rem;
-    padding-left: 5rem;
+    margin: 1rem;
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
