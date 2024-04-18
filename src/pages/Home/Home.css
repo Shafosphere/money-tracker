@@ -39,3 +39,8 @@
   width: 100%;
   /* background-color: antiquewhite; */
 }
+.Income{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
