@@ -1,10 +1,14 @@
 import "./Personal.css";
+import Avatar from "../../Avatar/Avatar";
 import { personalData } from "../../../Data/data";
 export default function Personal() {
   return (
     <div className="container-Personal">
       <div className="window-Personal">
         <div className="top-Personal">
+          <div className="avatar-Personal">
+            <Avatar />
+          </div>
           <div className="name data-Personal">
             <div>full name</div>
             <div>{personalData.name}</div>
