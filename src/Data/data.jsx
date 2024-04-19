@@ -140,3 +140,101 @@ export const creditCardData = [
     pin: "1234",
   },
 ];
+export const eventLogData = [
+  {
+    category: "Login",
+    date: "2024-04-03",
+    time: "10:20:00",
+    device: "PC",
+  },
+  {
+    category: "Login",
+    date: "2024-04-03",
+    time: "11:35:00",
+    device: "Phone",
+  },
+  {
+    category: "Withdrawal",
+    date: "2024-04-04",
+    time: "13:12:00",
+    device: "PC",
+  },
+  {
+    category: "Withdrawal",
+    date: "2024-04-05",
+    time: "15:45:00",
+    device: "Phone",
+  },
+  {
+    category: "BalanceCheck",
+    date: "2024-04-06",
+    time: "09:00:00",
+    device: "PC",
+  },
+  {
+    category: "Check",
+    date: "2024-04-07",
+    time: "18:23:00",
+    device: "Phone",
+  },
+  {
+    category: "Transfer",
+    date: "2024-04-08",
+    time: "11:50:00",
+    device: "PC",
+  },
+  {
+    category: "Transfer",
+    date: "2024-04-09",
+    time: "14:30:00",
+    device: "Phone",
+  },
+  {
+    category: "Password Change",
+    date: "2024-04-10",
+    time: "10:15:00",
+    device: "PC",
+  },
+  {
+    category: "Login",
+    date: "2024-04-12",
+    time: "08:22:00",
+    device: "PC",
+  },
+  {
+    category: "Login",
+    date: "2024-04-13",
+    time: "12:45:00",
+    device: "Phone",
+  },
+  {
+    category: "Withdrawal",
+    date: "2024-04-14",
+    time: "16:00:00",
+    device: "PC",
+  },
+  {
+    category: "Withdrawal",
+    date: "2024-04-16",
+    time: "15:12:00",
+    device: "PC",
+  },
+  {
+    category: "Balance Check",
+    date: "2024-04-17",
+    time: "20:05:00",
+    device: "Phone",
+  },
+  {
+    category: "Transfer",
+    date: "2024-04-18",
+    time: "09:45:00",
+    device: "PC",
+  },
+  {
+    category: "Transfer",
+    date: "2024-04-19",
+    time: "11:10:00",
+    device: "Phone",
+  },
+];

@@ -26,8 +26,8 @@
 .avatar-Personal{
     position: absolute;
     position: absolute;
-    top: 0; /* Przykładowe ustawienie */
-    right: 0; /* Przykładowe ustawienie */
+    top: 0; 
+    right: 0; 
     margin: 2rem;
 }
 .data-Personal{
