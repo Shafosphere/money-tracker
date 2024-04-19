@@ -4,7 +4,7 @@ export default function DealsHistory({displayDeal}) {
   const limitedDealsLogData = dealsData.slice(0, 10);
   function DealsData(item, index) {
     return (
-      <div key={index} onClick={()=> displayDeal(item.id)} className="Deals-data">
+      <div key={index} onMouseOver={()=> displayDeal(item.id)} className="Deals-data">
         <div>{item.receiver.name}</div>
         <div>{item.transferDate}</div>
         <div>{item.amount}</div>
