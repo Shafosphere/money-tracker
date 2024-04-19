@@ -1,10 +1,12 @@
 import "./Profile.css";
+import Personal from "../../components/Profile/Personal/Personal";
+import Event from "../../components/Profile/Event-log/Event";
 export default function Profile() {
   return (
     <>
-      <div className="personalData">1</div>
-      <div className="trustedDevice">2</div>
-      <div className="eventLog">3</div>
+      <div className="personalData"><Personal/></div>
+      <div className="eventLog"><Event/></div>
+      <div className="trustedDevice"></div>
     </>
   );
 }

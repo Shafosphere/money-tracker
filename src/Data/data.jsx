@@ -120,19 +120,17 @@ export const latestTransactions = [
     amount: 200,
   },
 ];
-export const personalData = [
-  {
-    name: "John Smith",
-    username: "john_smith123",
-    password: "P@ssw0rd!",
-    pin: "7890",
-    customerId: "123456789",
-    phoneNumber: "+48 123 456 789",
-    email: "john.smith@example.com",
-    address: "123 Main Street, Anytown, USA",
-    mailingAddress: "P.O. Box 123, Anytown, USA",
-  },
-];
+export const personalData = {
+  name: "John Smith",
+  username: "john_smith123",
+  password: "P@ssw0rd!",
+  pin: "7890",
+  customerId: "123456789",
+  phoneNumber: "+48 123 456 789",
+  email: "john.smith@example.com",
+  address: "123 Main Street, Anytown, USA",
+  mailingAddress: "P.O. Box 123, Anytown, USA",
+};
 
 export const creditCardData = [
   {

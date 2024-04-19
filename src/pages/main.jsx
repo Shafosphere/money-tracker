@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home/Home";
 import Profile from "./Profile/Profile";
 export default function Main() {
-  const [display, setDisplay] = useState("home");
+  const [display, setDisplay] = useState("profile");
 
   function changeDisplay(item) {
     setDisplay(item);
