@@ -1,0 +1,15 @@
+.deals{
+    grid-area: 1 / 2 / 3 / 3;
+    height: 100%;
+    width: 100%;
+}
+.details{
+    grid-area: 1 / 3 / 2 / 4;
+    height: 100%;
+    width: 100%;
+}
+.chart{
+    grid-area: 2 / 3 / 3 / 4;
+    height: 100%;
+    width: 100%;
+}
