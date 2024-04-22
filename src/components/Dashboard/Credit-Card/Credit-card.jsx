@@ -1,6 +1,5 @@
 import "./Credit-card.css";
 import { creditCardData } from "../../../Data/data";
-import { RiMastercardFill } from "react-icons/ri";
 import MasterCard from "./mastercard";
 export default function CreditCard() {
   const data = creditCardData[0];

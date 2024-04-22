@@ -5,7 +5,7 @@ import SendMoney from "../../components/Dashboard/Send-money/Send-money";
 import History from "../../components/Dashboard/History/History";
 import DashboardChart from "../../components/Charts/Dashboard-chart";
 import "./Home.css";
-export default function Home() {
+export default function Home({changeDisplay}) {
   return (
     <>
       {/* <div className="Content"></div> */}
@@ -21,7 +21,7 @@ export default function Home() {
         <SendMoney />
       </div>
       <div className="History">
-        <History />
+        <History changeDisplay={changeDisplay}/>
       </div>
       <div className="Chart">
         <DashboardChart />

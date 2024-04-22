@@ -12,13 +12,12 @@ export default function Main() {
 
   return (
     <div className="container-main">
-      {/* <Template /> */}
       <div className="Navbar">
         <Navbar changeDisplay={changeDisplay} />
       </div>
       {display === "home" && (
         <>
-          <Home />
+          <Home changeDisplay={changeDisplay}/>
         </>
       )}
       {display === "profile" && (
