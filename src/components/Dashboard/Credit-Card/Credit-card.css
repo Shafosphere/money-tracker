@@ -1,7 +1,7 @@
 .container-CreCard{
     height: 100%;
     width: 100%;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 .window-CreCard{
     background-color: white;
@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+    border: solid rgba(0, 0, 0, 0.2) 2px;
 }
 .CreCard-head{
     height: 20%;

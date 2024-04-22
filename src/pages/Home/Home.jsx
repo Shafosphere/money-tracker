@@ -5,23 +5,27 @@ import SendMoney from "../../components/Dashboard/Send-money/Send-money";
 import History from "../../components/Dashboard/History/History";
 import DashboardChart from "../../components/Charts/Dashboard-chart";
 import "./Home.css";
-export default function Home({changeDisplay}) {
+export default function Home({ changeDisplay }) {
   return (
     <>
-      {/* <div className="Content"></div> */}
-      <div className="Income">
-        <div className="title">
-          <div>Dashboard</div>
+      <div className="main-Home">
+        <div className="window-Home">
+          <div className="Income">
+            <div className="title">
+              <div>Dashboard</div>
+            </div>
+            <MonthlyIncome />
+            <CreditCard />
+          </div>
+          <div className="Goals">
+            <Goal />
+            <SendMoney />
+          </div>
         </div>
-        <MonthlyIncome />
-        <CreditCard />
       </div>
-      <div className="Goals">
-        <Goal />
-        <SendMoney />
-      </div>
+
       <div className="History">
-        <History changeDisplay={changeDisplay}/>
+        <History changeDisplay={changeDisplay} />
       </div>
       <div className="Chart">
         <DashboardChart />
