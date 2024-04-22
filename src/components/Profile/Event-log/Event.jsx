@@ -1,8 +1,23 @@
 import "./Event.css";
 import { eventLogData } from "../../../Data/data";
+import { FaComputer } from "react-icons/fa6";
+import { IoPhonePortraitOutline } from "react-icons/io5";
+
+
 export default function Event() {
   const limitedEventLogData = eventLogData.slice(0, 6);
   function eventData(item) {
+    function icon(device){
+      if(device === "PC"){
+        return (
+          <FaComputer className="icon"/>
+        )
+      } else {
+        return (
+          <IoPhonePortraitOutline className="icon"/>
+        )
+      }
+    }
     return (
       <div className="event-data">
         <div>{item.category}</div>

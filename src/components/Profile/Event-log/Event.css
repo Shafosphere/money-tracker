@@ -60,6 +60,7 @@
 .event-data > div {
   flex: 1;
   text-align: center;
+  max-height: 20px;
 }
 
 .event-data > div:first-child {
@@ -68,4 +69,7 @@
 
 .event-data > div:last-child {
   text-align: right;
+}
+.icon{
+  font-size: 30px;
 }

@@ -4,7 +4,7 @@ import Home from "./Home/Home";
 import Profile from "./Profile/Profile";
 import History from "./History/History";
 export default function Main() {
-  const [display, setDisplay] = useState("history");
+  const [display, setDisplay] = useState("home");
 
   function changeDisplay(item) {
     setDisplay(item);

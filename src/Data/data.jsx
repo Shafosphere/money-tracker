@@ -138,6 +138,10 @@ export const creditCardData = [
     expirationDate: "05/26",
     cvv: "123",
     pin: "1234",
+    availableBalance: "12,234",
+    currency: '$',
+    owner: "John Smith",
+    expiryDate: "07/22",
   },
 ];
 export const eventLogData = [
